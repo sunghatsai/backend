@@ -180,11 +180,23 @@
 #line24 {
     width: 150px;
     height: 30px;
+    border-radius: 5px;
+    outline-style: none;
+}
+
+#line24:hover {
+    box-shadow: inset 0 0 10px orange;
 }
 
 #selectbasic1 {
     width: 150px;
     height: 30px;
+    border-radius: 5px;
+    outline-style: none;
+}
+
+#selectbasic1:hover {
+    box-shadow: inset 0 0 10px orange;
 }
 
 .body1 {
@@ -214,22 +226,180 @@
     text-align: right;
 }
 
-.line29{
+.line29 {
     text-align: left;
 }
 
 #line30 {
     width: 150px;
     height: 30px;
+    border-radius: 5px;
+    outline-style: none;
 }
 
-.kkk{
+#line30:hover {
+    box-shadow: inset 0 0 10px orange;
+}
+
+.kkk {
     padding: 0px 20px;
     margin: auto;
     position: relative;
     right: 30px;
 }
 
-.line31{
+.line31 {
     text-align: center;
+}
+
+#NewBtn6 {
+    color: black;
+    background-color: orange;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#NewBtn6:hover {
+    background-color: rgb(236, 102, 13);
+}
+
+#NewBtn7 {
+    color: black;
+    background-color: orange;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#NewBtn7:hover {
+    background-color: rgb(236, 102, 13);
+}
+
+#NewBtn8 {
+    color: black;
+    background-color: orange;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#NewBtn8:hover {
+    background-color: rgb(236, 102, 13);
+}
+
+#radios-0:hover {
+    box-shadow: inset 0 0 5px orange;
+}
+
+#radios-1:hover {
+    box-shadow: inset 0 0 5px orange;
+}
+
+/*AddPreferential*/
+#NewBtn {
+    color: black;
+    background-color: orange;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#NewBtn:hover {
+    background-color: rgb(236, 102, 13);
+}
+
+#back1 {
+    background-image: url("../img/bgimg1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#back2 {
+    background: rgba(255, 255, 255, 0.9);
+    border: 0px;
+}
+
+#line32 {
+    border-radius: 5px;
+    outline-style: none;
+}
+
+#line32:hover {
+    box-shadow: inset 0 0 10px orange;
+}
+
+/*MemberInfo*/
+#back3 {
+    background-image: url("../img/bgimg2.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+#back4 {
+    background: rgba(255, 255, 255, 0.9);
+    border: 0px;
+}
+
+#NewBtn2 {
+    color: black;
+    background-color: orange;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#NewBtn2:hover {
+    background-color: rgb(236, 102, 13);
+}
+
+/*CheckOrder*/
+#NewBtn3 {
+    color: black;
+    background-color: orange;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#NewBtn3:hover {
+    background-color: rgb(236, 102, 13);
+}
+
+#NewBtn4 {
+    color: black;
+    background-color: orange;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#NewBtn4:hover {
+    background-color: rgb(236, 102, 13);
+}
+
+#line33 {
+    border-radius: 5px;
+    outline-style: none;
+}
+
+#line33:hover {
+    box-shadow: inset 0 0 10px orange;
+}
+
+/*CheckRestaurant*/
+#NewBtn5 {
+    color: black;
+    background-color: orange;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#NewBtn5:hover {
+    background-color: rgb(236, 102, 13);
+}
+
+/*DeleteOrder,Restaurant,Member,Preferential*/
+#NewBtn9 {
+    color: black;
+    background-color: orange;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#NewBtn9:hover {
+    background-color: rgb(236, 102, 13);
 }

@@ -20,18 +20,18 @@
     <link rel="stylesheet" href="css/backendmodify.css">
 </head>
 
-<body>
-    <div class="container5">
+<body id="back5">
+    <div id="back6" class="container5">
         <div class="row">
             <div class="line23 col">查 詢 訂 單</div>
         </div>
     </div>
-    <div class="container6">
+    <div id="back6" class="container6">
         <div class="row">
             <div class="col-3">訂 單 編 號 : </div>
             <div class="line21 col-3">CY009657</div>
             <div class="line22 col-6">
-                <button id="singlebutton" name="singlebutton" class="btn btn-primary" style="width:90px;">修 改</button>
+                <button id="NewBtn3" name="singlebutton" class="btn btn-primary" style="width:90px;">修 改</button>
             </div>
         </div>
         <div class="row">
@@ -43,7 +43,7 @@
             <div class="line21 col-3">海之家</div>
         </div>
     </div>
-    <div class="container7">
+    <div id="back6" class="container7">
         <div class="row">
             <div class="col-4">餐 點 名 稱</div>
             <div class="line19 col-4">下 單 數 量</div>
@@ -56,7 +56,7 @@
             <div class="line20 col-4">60元</div>
         </div>
     </div>
-    <div class="container8">
+    <div id="back6" class="container8">
         <div class="row">
             <div class="col">細項種類A</div>
         </div>
@@ -85,7 +85,7 @@
             <div class="line18 col-2">元</div>
         </div>
     </div>
-    <div class="container9">
+    <div id="back6" class="container9">
         <div class="row">
             <div class="col-4">番茄肉醬乾拌麵</div>
             <div class="line11 col-4">1份</div>
@@ -108,7 +108,8 @@
             <div class="col-3">總 金 額 : </div>
             <div class="line9 col-9">
                 <form>
-                    <input type="text" name="FirstName" value="(120*1)+0">
+                    <input id="line33" type="text" name="FirstName" placeholder="(120*1)+0"
+                        onfocus="this.placeholder=''" onblur="this.placeholder='(120*1)+0'">
                 </form>
             </div>
         </div>
@@ -116,7 +117,8 @@
             <div class="col-3">下 單 日 期 : </div>
             <div class="line9 col">
                 <form>
-                    <input type="text" name="FirstName" value="YY/MM/DD">
+                    <input id="line33" type="text" name="FirstName" placeholder="YY/MM/DD" onfocus="this.placeholder=''"
+                        onblur="this.placeholder='YY/MM/DD'">
                 </form>
             </div>
             <div class="line13 col">是 否 送 達 : </div>
@@ -135,7 +137,7 @@
         </div>
         <div class="row">
             <div class="line15 col">
-                <button id="singlebutton" name="singlebutton" class="btn btn-primary" style="width:90px;">離 開</button>
+                <button id="NewBtn4" name="singlebutton" class="btn btn-primary" style="width:90px;">離 開</button>
             </div>
         </div>
     </div>
